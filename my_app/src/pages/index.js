@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Button from '@/components/button';
 
 export default function Home() {
   return (
@@ -10,7 +11,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        Hello
+        <h1>Hello React with Next.JS</h1>
+        <br></br>
+
+        <Button></Button>
       </main>
     </>
   )
